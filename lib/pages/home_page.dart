@@ -8,8 +8,8 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Center(child: Text('Catalog App')),
+        backwardsCompatibility: true,
       ),
-      drawer: Drawer(),
       body: Center(
         child: Text('This is My First Flutter Apps'),
       ),
